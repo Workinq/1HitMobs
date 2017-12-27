@@ -1,0 +1,16 @@
+#This is the permission needed to execute the /mobs command. (The command only has a reload function).
+MobKillPermission: 'sponge.command'
+#This message will be sent to the player executing the command if they don't have permission to use it.
+NoPermission: '&cYou do not have permission to use this command.'
+#This message will be sent to the player executing the command if they only provided 1 argument (e.g. they only typed /mobs).
+InvalidSyntax: '&cInvalid command usage: /mobs <reload>'
+#This message will be sent to the player if the config has been reloaded.
+ConfigReloaded: '&cConfig reloaded.'
+
+#This will enable 1 hit kills if true.
+EnableInstantKill: true
+
+SendPlayerInstantKillMessage: true
+
+#Message sent to the player if they kill a mob (if option to send a message is true).
+InstantKill: '&cYou killed a mob :)'
