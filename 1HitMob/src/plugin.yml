@@ -1,0 +1,8 @@
+name: 1HitKill
+main: kr.kieran.mobs.Mobs
+version: 1.0
+description: A simple plugin to allow 1 hit kills to mobs.
+commands:
+    mobs:
+        usage: /<command>
+        description: A simple 1 hit kill mob plugin.
